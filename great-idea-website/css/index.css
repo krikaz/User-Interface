@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	padding: 5%;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: inline-block;
+	width: 80%;
+}
+
+nav li {
+	display: inline-block;
+	width: 15%;
+}
+
+nav li a {
+	color: grey;
+}
+
+.logo {
+	display: inline-block;
+}
+
+#innov {
+	padding: 5%;
+}
+
+.innov-element {
+	display: inline-block;
+}
+
+
+#start {
+	border: 1px solid black;
+	align-content: center;
+
+}
+#title p {
+	font-size: 5em;
+	align-content: center;
+}
+
